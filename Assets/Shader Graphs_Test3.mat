@@ -68,6 +68,7 @@ Material:
     - _Cull: 2
     - _DstBlend: 10
     - _FullCreenIntensity: 0.356
+    - _Mask_Size: 7.57
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
