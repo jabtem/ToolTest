@@ -8,7 +8,7 @@ public class ObjectPlacementWindow : EditorWindow
     [MenuItem("Window/Object Placement")]
     public static void ShowWindow()
     {
-        EditorWindow.GetWindow(typeof(ObjectPlacementWindow));
+        ObjectPlacementWindow wnd = GetWindow<ObjectPlacementWindow>();
     }
 
     void OnGUI()

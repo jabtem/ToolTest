@@ -82,6 +82,7 @@ public class TestTool : EditorWindow
     }
 
 
+    //터레인에 구멍뚫는 함수
     void PaintHoleAtLocation(Terrain terrain, Vector3 worldPosition)
     {
         Vector3 terrainLocalPos = terrain.transform.InverseTransformPoint(worldPosition);
